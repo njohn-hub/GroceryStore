@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop</title>
+
+    <!-- font awesome link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- css file link  -->
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <header class="header">
+      <a href="Home.html" class="logo">
+        <i class="fa fa-shopping-basket" aria-hidden="true"></i>Groco</a
+      >
+
+      <nav class="navbar">
+        <a href="Home.html">Home</a>
+        <a href="Shop.html">Shop</a>
+        <a href="About.html">About</a>
+        <a href="Review.html">Review</a>
+        <a href="Blog.html">Blog</a>
+        <a href="Contact.html">Contact</a>
+      </nav>
+
+      <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+      </div>
+
+      <form action="" class="search-form">
+        <input type="search" placeholder="search here ...." id="search-box" />
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+
+      <div class="shopping-cart">
+        <div class="box">
+          <i class="fas fa-times"></i>
+          <img
+            class="img"
+            src="https://images.pexels.com/photos/872400/pexels-photo-872400.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            alt=""
+          />
+          <div class="content">
+            <h3>Organic Food</h3>
+            <span class="quantity">1</span>
+            <span class="multiply">x</span>
+            <span class="price">$43.33</span>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-times"></i>
+          <img
+            class="img"
+            src="https://images.pexels.com/photos/3609872/pexels-photo-3609872.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            alt=""
+          />
+          <div class="content">
+            <h3>Organic Food</h3>
+            <span class="quantity">1</span>
+            <span class="multiply">x</span>
+            <span class="price">$43.33</span>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-times"></i>
+          <img
+            src="https://images.pexels.com/photos/186841/pexels-photo-186841.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            alt=""
+          />
+          <div class="content">
+            <h3>Organic Food</h3>
+            <span class="quantity">1</span>
+            <span class="multiply">x</span>
+            <span class="price">$43.33</span>
+          </div>
+        </div>
+        <h3 class="total">total : <span>$534.64</span></h3>
+
+        <a href="#" class="btn">Checkout Cart</a>
+      </div>
+
+      <form action="" class="login-form">
+        <h3>Login form</h3>
+        <input type="email" placeholder="Enter your email" class="box" />
+        <input type="password" placeholder="Enter your password" class="box" />
+        <div class="remember">
+          <input type="checkbox" id="remember-me" />
+          <label for="remember-me">remember me</label>
+        </div>
+        <input type="submit" value="login now" class="btn" />
+        <p>forgot password ? <a href="#">click here</a></p>
+        <p>Don't have an account ? <a href="#">sign up</a></p>
+      </form>
+    </header>
+    <!-- header section ends  -->
+
+    <div class="heading">
+      <h1>our shop</h1>
+      <p><a href="Home.html">home >></a> shop</p>
+    </div>
+
+    <section class="category">
+      <h1 class="title">
+        our <span> category</span> <a href="#">view all >></a>
+      </h1>
+
+      <div class="box-container">
+        <a href="#" class="box">
+          <img
+            src="https://images.pexels.com/photos/51958/oranges-fruit-vitamins-healthy-eating-51958.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            alt=""
+          />
+          <h3>fresh fruits</h3>
+        </a>
+
+        <a href="#" class="box">
+          <img
+            src="https://images.pexels.com/photos/244393/pexels-photo-244393.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            alt=""
+          />
+          <h3>vegetables</h3>
+        </a>
+
+        <a href="#" class="box">
+          <img
+            src="https://images.pexels.com/photos/2802527/pexels-photo-2802527.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            alt=""
+          />
+          <h3>organic spices</h3>
+        </a>
+
+        <a href="#" class="box">
+          <img
+            src="https://images.pexels.com/photos/65175/pexels-photo-65175.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            alt=""
+          />
+          <h3>fresh meat</h3>
+        </a>
+
+        <a href="#" class="box">
+          <img
+            src="https://images.pexels.com/photos/1974627/pexels-photo-1974627.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            alt=""
+          />
+          <h3>organic wheat</h3>
+        </a>
+      </div>
+    </section>
+
+    <section class="products">
+      <h1 class="title">
+        our <span> products</span> <a href="#">view all >></a>
+      </h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+            <img
+              src="https://images.pexels.com/photos/1093038/pexels-photo-1093038.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <h3>organic food</h3>
+            <div class="price">$18.99</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+            <img
+              src="https://images.pexels.com/photos/142520/pexels-photo-142520.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <h3>organic food</h3>
+            <div class="price">$18.99</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+            <img
+              src="https://images.pexels.com/photos/1634356/pexels-photo-1634356.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <h3>organic food</h3>
+            <div class="price">$18.99</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+            <img
+              src="https://images.pexels.com/photos/1340863/pexels-photo-1340863.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <h3>organic food</h3>
+            <div class="price">$18.99</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+            <img
+              src="https://images.pexels.com/photos/9201495/pexels-photo-9201495.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <h3>organic food</h3>
+            <div class="price">$18.99</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+            <img
+              src="https://images.pexels.com/photos/5899686/pexels-photo-5899686.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <h3>organic food</h3>
+            <div class="price">$18.99</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+            <img
+              src="https://images.pexels.com/photos/6157049/pexels-photo-6157049.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <h3>organic food</h3>
+            <div class="price">$18.99</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+            <img
+              src="https://images.pexels.com/photos/5755905/pexels-photo-5755905.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <h3>organic food</h3>
+            <div class="price">$18.99</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="Home.html"> <i class="fas fa-arrow-right"></i> Home</a>
+          <a href="Shop.html"> <i class="fas fa-arrow-right"></i> Shop</a>
+          <a href="About.html"><i class="fas fa-arrow-right"></i> About</a>
+          <a href="Review.html"><i class="fas fa-arrow-right"></i> Review</a>
+          <a href="Blog.html"><i class="fas fa-arrow-right"></i>Blog</a>
+          <a href="Contact.html"><i class="fas fa-arrow-right"></i>Contact</a>
+        </div>
+
+        <div class="box">
+          <h3>extra links</h3>
+          <a href="#"
+            ><i class="fa fa-arrow-right" aria-hidden="true"></i>my order</a
+          >
+          <a href="#"
+            ><i class="fa fa-arrow-right" aria-hidden="true"></i>my favorites</a
+          >
+          <a href="#"
+            ><i class="fa fa-arrow-right" aria-hidden="true"></i>my wishlist</a
+          >
+          <a href="#"
+            ><i class="fa fa-arrow-right" aria-hidden="true"></i>my account</a
+          >
+          <a href="#"
+            ><i class="fa fa-arrow-right" aria-hidden="true"></i>terms of use</a
+          >
+        </div>
+
+        <div class="box">
+          <h3>follow us</h3>
+          <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+          <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+          <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+          <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+          <a href="#"> <i class="fab fa-pinterest-p"></i> pinterest </a>
+        </div>
+
+        <div class="box">
+          <h3>newsletter</h3>
+          <p>subscribe for the latest updates</p>
+          <form action="">
+            <input type="email" placeholder="enter your email" />
+            <input type="submit" value="subscribe" class="btn" />
+          </form>
+          <img src="" alt="" class="payment" />
+        </div>
+      </div>
+    </section>
+
+    <section class="credit">Created by njohn | all rights reserved</section>
+    <!-- footer section ends  -->
+
+    <!-- javascript link  -->
+    <script src="/Script.js"></script>
+  </body>
+</html>

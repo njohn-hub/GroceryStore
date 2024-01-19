@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+
+    <!-- font awesome link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- css file link  -->
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <header class="header">
+      <a href="Home.html" class="logo">
+        <i class="fa fa-shopping-basket" aria-hidden="true"></i>Groco</a
+      >
+
+      <nav class="navbar">
+        <a href="Home.html">Home</a>
+        <a href="Shop.html">Shop</a>
+        <a href="About.html">About</a>
+        <a href="Review.html">Review</a>
+        <a href="Blog.html">Blog</a>
+        <a href="Contact.html">Contact</a>
+      </nav>
+
+      <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+      </div>
+
+      <form action="" class="search-form">
+        <input type="search" placeholder="search here ...." id="search-box" />
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+
+      <div class="shopping-cart">
+        <div class="box">
+          <i class="fas fa-times"></i>
+          <img
+            class="img"
+            src="https://images.pexels.com/photos/872400/pexels-photo-872400.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            alt=""
+          />
+          <div class="content">
+            <h3>Organic Food</h3>
+            <span class="quantity">1</span>
+            <span class="multiply">x</span>
+            <span class="price">$43.33</span>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-times"></i>
+          <img
+            class="img"
+            src="https://images.pexels.com/photos/3609872/pexels-photo-3609872.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            alt=""
+          />
+          <div class="content">
+            <h3>Organic Food</h3>
+            <span class="quantity">1</span>
+            <span class="multiply">x</span>
+            <span class="price">$43.33</span>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-times"></i>
+          <img
+            src="https://images.pexels.com/photos/186841/pexels-photo-186841.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            alt=""
+          />
+          <div class="content">
+            <h3>Organic Food</h3>
+            <span class="quantity">1</span>
+            <span class="multiply">x</span>
+            <span class="price">$43.33</span>
+          </div>
+        </div>
+        <h3 class="total">total : <span>$534.64</span></h3>
+
+        <a href="#" class="btn">Checkout Cart</a>
+      </div>
+
+      <form action="" class="login-form">
+        <h3>Login form</h3>
+        <input type="email" placeholder="Enter your email" class="box" />
+        <input type="password" placeholder="Enter your password" class="box" />
+        <div class="remember">
+          <input type="checkbox" id="remember-me" />
+          <label for="remember-me">remember me</label>
+        </div>
+        <input type="submit" value="login now" class="btn" />
+        <p>forgot password ? <a href="#">click here</a></p>
+        <p>Don't have an account ? <a href="#">sign up</a></p>
+      </form>
+    </header>
+    <!-- header section ends  -->
+
+    <!-- home section  -->
+
+    <section class="home">
+      <div class="slides-container">
+        <div class="slide active">
+          <div class="content">
+            <span>fresh and organic</span>
+            <h3>upto 50% off</h3>
+            <a href="#" class="btn">shop now</a>
+          </div>
+          <div class="image">
+            <img
+              src="https://images.pexels.com/photos/186840/pexels-photo-186840.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <!-- <div class="side">
+          <div class="content">
+            <span>fresh and organic</span>
+            <h3>upto 50% off</h3>
+            <a href="#" class="btn">shop now</a>
+          </div>
+          <div class="image">
+            <img
+              src="https://images.pexels.com/photos/870808/pexels-photo-870808.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="side">
+          <div class="content">
+            <span>fresh and organic</span>
+            <h3>upto 50% off</h3>
+            <a href="#" class="btn">shop now</a>
+          </div>
+          <div class="image">
+            <img
+              src="https://images.pexels.com/photos/7657017/pexels-photo-7657017.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              alt=""
+            />
+          </div>
+        </div> -->
+      </div>
+
+      <!-- <div id="next-slide" class="fas fa-angle-right"></div>
+      <div id="prev-slide" class="fas fa-angle-left"></div> -->
+    </section>
+    <!-- home section ends -->
+
+    <!-- banner section  -->
+
+    <section class="banner-container">
+      <div class="banner">
+        <img
+          src="https://images.pexels.com/photos/405031/pexels-photo-405031.jpeg?auto=compress&cs=tinysrgb&w=1600"
+          alt=""
+        />
+        <div class="content">
+          <span>limited sales</span>
+          <h3>upto 50% off</h3>
+          <a href="#" class="btn">shop now </a>
+        </div>
+      </div>
+
+      <div class="banner">
+        <img
+          src="https://images.pexels.com/photos/349610/pexels-photo-349610.jpeg?auto=compress&cs=tinysrgb&w=1600"
+          alt=""
+        />
+        <div class="content">
+          <span>limited sales</span>
+          <h3>upto 50% off</h3>
+          <a href="#" class="btn">shop now </a>
+        </div>
+      </div>
+
+      <div class="banner">
+        <img
+          src="https://images.pexels.com/photos/5149342/pexels-photo-5149342.jpeg?auto=compress&cs=tinysrgb&w=1600"
+          alt=""
+        />
+        <div class="content">
+          <span>limited sales</span>
+          <h3>upto 50% off</h3>
+          <a href="#" class="btn">shop now </a>
+        </div>
+      </div>
+    </section>
+    <!-- banner section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="Home.html"> <i class="fas fa-arrow-right"></i> Home</a>
+          <a href="Shop.html"> <i class="fas fa-arrow-right"></i> Shop</a>
+          <a href="About.html"><i class="fas fa-arrow-right"></i> About</a>
+          <a href="Review.html"><i class="fas fa-arrow-right"></i> Review</a>
+          <a href="Blog.html"><i class="fas fa-arrow-right"></i>Blog</a>
+          <a href="Contact.html"><i class="fas fa-arrow-right"></i>Contact</a>
+        </div>
+
+        <div class="box">
+          <h3>extra links</h3>
+          <a href="#"
+            ><i class="fa fa-arrow-right" aria-hidden="true"></i>my order</a
+          >
+          <a href="#"
+            ><i class="fa fa-arrow-right" aria-hidden="true"></i>my favorites</a
+          >
+          <a href="#"
+            ><i class="fa fa-arrow-right" aria-hidden="true"></i>my wishlist</a
+          >
+          <a href="#"
+            ><i class="fa fa-arrow-right" aria-hidden="true"></i>my account</a
+          >
+          <a href="#"
+            ><i class="fa fa-arrow-right" aria-hidden="true"></i>terms of use</a
+          >
+        </div>
+
+        <div class="box">
+          <h3>follow us</h3>
+          <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+          <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+          <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+          <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+          <a href="#"> <i class="fab fa-pinterest-p"></i> pinterest </a>
+        </div>
+
+        <div class="box">
+          <h3>newsletter</h3>
+          <p>subscribe for the latest updates</p>
+          <form action="">
+            <input type="email" placeholder="enter your email" />
+            <input type="submit" value="subscribe" class="btn" />
+          </form>
+          <img src="" alt="" class="payment" />
+        </div>
+      </div>
+    </section>
+
+    <section class="credit">Created by njohn | all rights reserved</section>
+    <!-- footer section ends  -->
+
+    <!-- javascript link  -->
+    <script src="/Script.js"></script>
+  </body>
+</html>
